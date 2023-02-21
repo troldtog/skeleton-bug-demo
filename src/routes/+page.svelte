@@ -2,6 +2,12 @@
 
 <div class="container h-full mx-auto flex justify-center items-center">
     <div class="space-y-10 text-center">
+    	<div class="grid grid-cols-2 gap-4">
+            <p class="text-xs">This should be  tiny</p><p><span class="text-xs">This is  tiny</span></p>
+            <p class="text-sm">This should be small</p><p><span class="text-sm">This is small</span></p>
+            <p class="text-lg">This should be large</p><p><span class="text-lg">This is large</span></p>
+            <p class="text-xl">This should be giant</p><p><span class="text-xl">This is giant</span></p>
+        </div>
         <h2 class="font-bold">Welcome to Skeleton.</h2>
         <!-- Animated Logo -->
         <figure>
